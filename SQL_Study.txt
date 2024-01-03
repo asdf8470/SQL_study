@@ -4,7 +4,7 @@ student_id int not null primary key,
 student_name varchar(20) not null
 );
 
-/* 			테이블명	   컬럼   데이터 타입    제약조검*/
+/* 테이블명	   컬럼   데이터 타입    제약조건*/
 alter table alpaco add email varchar(30) not null;
 
 
